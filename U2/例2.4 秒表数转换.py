@@ -1,7 +1,5 @@
 
-#a = int(input())
-a = 3750
-print("转换前的秒数为", a)
+a = int(input())
 
 print(f"{a}秒共用时", end = "")
 if a >= 86400:
