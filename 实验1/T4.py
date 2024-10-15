@@ -21,5 +21,9 @@ def demo():
             print(f'{a}不是一个对称的三位数')
 
         break
+    
+def main():
+    demo()
 
-demo()
+if __name__ == '__main__':
+    main()
