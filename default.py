@@ -1,4 +1,6 @@
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.rc("font",family='FangSong')
 
 # 输入两组相同长度的数组
 x = list(map(float, input("请输入第一组数据（以空格分隔）: ").split()))
