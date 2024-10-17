@@ -15,6 +15,3 @@ else:
     plt.ylabel('第二组数据')
     plt.grid()
     plt.show()
-    plt.savefig('line_chart.png')
-
-
