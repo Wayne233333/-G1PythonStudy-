@@ -31,8 +31,7 @@ while a != 'OVER':
     sco.append(c)
     a = input()
 
-num, sco = Sort(num, sco)
+sco, num = Sort(sco, num)
 
-for i in range(len(num)):
-    if sco[i] >= 60:
-        print(num[i], sco[i])
+for i in range(len(num)-1, -1, -1):
+    print(num[i], sco[i])
