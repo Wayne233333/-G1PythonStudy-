@@ -1,5 +1,5 @@
 
-lst = map(int, input().split(' '))
+lst = list(map(int, input().split(' ')))
 d = {}
 
 for i in lst:
